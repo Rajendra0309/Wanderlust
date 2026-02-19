@@ -188,11 +188,11 @@ Wanderlust/
 
 | Variable | Description | Example |
 |----------|-------------|---------|
-| `ATLASDB_URL` | MongoDB Atlas connection string | `mongodb+srv://user:pass@cluster.mongodb.net/wanderlust` |
-| `SECRET` | Session secret key for encryption | `mysupersecretkey123` |
+| `ATLASDB_URL` | MongoDB Atlas connection string | `mongodb+srv://<username>:<password>@cluster.mongodb.net/wanderlust` |
+| `SECRET` | Session secret key for encryption | `your-secret-key-here` |
 | `CLOUD_NAME` | Cloudinary cloud name | `your-cloud-name` |
-| `CLOUD_API_KEY` | Cloudinary API key | `123456789012345` |
-| `CLOUD_API_SECRET` | Cloudinary API secret | `abcdefghijklmnopqrstuvwxyz` |
+| `CLOUD_API_KEY` | Cloudinary API key | `your-api-key` |
+| `CLOUD_API_SECRET` | Cloudinary API secret | `your-api-secret` |
 | `MAP_TOKEN` | Mapbox public access token | `pk.eyJ1IjoiZXhhbXBsZSIsImEiOiJja...` |
 | `NODE_ENV` | Environment mode | `development` or `production` |
 
